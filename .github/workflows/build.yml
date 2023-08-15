@@ -19,7 +19,7 @@ on:
 jobs:
   job:
     name: ${{ matrix.os }}-hosted-pure
-    runs-on: Main
+    runs-on: self-hosted
     strategy:
       fail-fast: false
       matrix:
